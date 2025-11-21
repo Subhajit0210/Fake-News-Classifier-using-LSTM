@@ -1,10 +1,10 @@
-# Fake News Classifier using LSTM
-
 # Fake News Detection using LSTM
 
 ## Project Overview
 
-This project implements a Fake News Detection system using a Long Short-Term Memory (LSTM) neural network. The goal is to classify news headlines as either 'fake' or 'not fake' based on their textual content. Text preprocessing techniques, such as stemming, stop word removal, and one-hot encoding, are applied before feeding the data into the LSTM model.
+This project implements a **Fake News Detection System** using a **Long Short-Term Memory (LSTM) Neural Network**.
+The goal is to classify news headlines as either **'Fake'** or **'Not Fake'** based on their textual content.
+Text preprocessing techniques, such as stemming, removing stop words, and one-hot encoding, are applied before feeding the data into the LSTM model.
 
 ## Dataset
 
