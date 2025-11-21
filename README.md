@@ -100,7 +100,3 @@ weighted avg       0.51      0.52      0.51      6035
      [1581 1035]]
     ```
 *   **Accuracy Score**: `0.5163`
-*   **AUC Score**: `0.47` (This indicates the model is performing worse than random guessing. Further hyperparameter tuning and model architecture changes are needed.)
-
-**Note**: The initial training without dropout showed very high training accuracy and low training loss but a significant difference from validation metrics, indicating overfitting. After adding dropout, the validation performance decreased. This suggests the model might be too complex for the given data or further optimization of hyperparameters (learning rate, LSTM units, dropout rates, embedding size, `sent_length`) is required, or potentially using a more robust dataset or preprocessing strategy like word embeddings (Word2Vec, GloVe) instead of simple one-hot encoding for better semantic understanding. It is also important to consider that only the `title` column was used for text processing; including the `text` column could significantly improve performance.
-```
