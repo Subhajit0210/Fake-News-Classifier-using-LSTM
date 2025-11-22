@@ -6,7 +6,7 @@ This project implements a **Fake News Detection System** using a **Long Short-Te
 
 The goal is to classify news headlines as either **'Fake'** or **'Not Fake'** based on their textual content.
 
-Text preprocessing techniques, such as stemming, removing stop words, and one-hot encoding, are applied before feeding the data into the LSTM model.
+Text preprocessing techniques, such as stemming, removing stop words, and one-hot encoding, are applied to the data before it is fed into the LSTM model.
 
 ## Dataset
 
